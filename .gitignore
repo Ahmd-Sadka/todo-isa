@@ -3,6 +3,6 @@
 /home/a7md/.ssh/zen-keys
 
 # Ignore Terraform cache and state
-./todo-infra/.terraform/
-./todo-infra/terraform.tfstate
-./todo-infra/terraform.tfstate.backup
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
