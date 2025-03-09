@@ -2,7 +2,10 @@
 # Project SSH keys
 /home/a7md/.ssh/zen-keys
 
-# Ignore Terraform cache and state
+# Terraform
 .terraform/
-terraform.tfstate
-terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+
+# Providers
+*.terraform-providers/
